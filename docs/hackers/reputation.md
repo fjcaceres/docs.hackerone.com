@@ -41,10 +41,10 @@ The bounty amount you receive also impacts your reputation. Different bounty amo
 
 Reputation | Details
 ---------- | --------
-+50 | Known as BOUNTY_SEVERE. <br>Received when Bounty Amount ≥ mean + 1 standard deviation
-+25 | Known as BOUNTY_HIGH. <br>Received when Bounty Amount > mean
-+15 | Known as BOUNTY_MEDIUM. <br>Received when Bounty Amount ≥ mean - 1 standard deviation
-+10 | Known as BOUNTY_LOW. <br>Received when Bounty Amount < mean - 1 standard deviation
++50 | Known as BOUNTY_SEVERE. <br>Received when Bounty Amount is >  + 1 standard deviation
++25 | Known as BOUNTY_HIGH. <br>Received when Bounty Amount is > mean and < + 1 standard deviation
++15 | Known as BOUNTY_MEDIUM. <br>Received when Bounty Amount is < mean and - 1 standard deviation
++10 | Known as BOUNTY_LOW. <br>Received when Bounty Amount is < - 1 standard deviation
 
 Keep in mind that the first 10 bounties of a program will be rewarded the BOUNTY_LOW reputation. After 10 bounties have been paid out, a hacker’s reputation will be recalculated based on the standard deviation of the program’s mean bounty.
 
